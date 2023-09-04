@@ -1,0 +1,79 @@
+@keyframes moveToUp {
+  0% {
+    opacity: 0;
+    transform: translateY(12rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-12rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveFromRightCorner {
+  0% {
+    opacity: 0;
+    transform: translate(12rem, 12rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveFromLeftCorner {
+  0% {
+    opacity: 0;
+    transform: translate(-12rem, 12rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+////////////////////////////////////////////////
+/// ANIMATIONS
+
+.moveToUp-4s {
+  animation: moveToUp 1s 0.4s;
+}
+.moveToUp-5s {
+  animation: moveToUp 1s 0.5s;
+}
+.moveToUp-6s {
+  animation: moveToUp 1s 0.6s;
+}
+.moveToUp-7s {
+  animation: moveToUp 1s 0.7s;
+}
+
+.moveToRight-5s {
+  animation: moveToRight 1s 0.5s;
+}
+
+.moveFromleftCorner-5s {
+  animation: moveFromLeftCorner 1s 0.5s;
+}
+
+.moveFromleftCorner-7s {
+  animation: moveFromLeftCorner 1s 0.7s;
+}
+
+.moveFromRightCorner-5s {
+  animation: moveFromRightCorner 1s 0.5s;
+}

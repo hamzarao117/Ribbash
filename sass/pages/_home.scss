@@ -1,0 +1,196 @@
+.section-title {
+  padding: 8rem 8rem 4rem 8rem;
+
+  .helping-text {
+    color: $color-green-dark;
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-top: 1.6rem;
+    line-height: 1.8;
+  }
+
+  .logo-img {
+    justify-content: space-between;
+    aspect-ratio: 1/2;
+  }
+}
+
+.logo-img:not(:last-child) {
+  margin-right: 2.2rem;
+}
+
+.startup-container {
+  text-align: center;
+  position: relative;
+  margin-bottom: 6rem;
+
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   background: $color-green-dark;
+  //   width: 0.5px;
+  //   height: 60%;
+  //   top: 0;
+  //   bottom: 0;
+  //   margin: auto;
+  //   right: 0;
+  // }
+
+  .startup-value {
+    color: $color-blue-dark;
+    font-size: 6.2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 2.2rem;
+    color: #021f21;
+    line-height: 1.4;
+  }
+}
+
+.section-helping-startup {
+  padding-bottom: 22rem;
+}
+
+// Section about
+.section-about {
+  padding: 12rem 6rem;
+  // margin-top: 25rem;
+  height: 92rem;
+  background-image: url(../../img/why-ribbash-bg.png);
+
+  .feature {
+    &__box {
+      background-color: $color-white;
+      padding: 2.8rem;
+      margin-top: 4rem;
+      height: 26rem;
+      transition: all 0.2s;
+
+      &-text {
+        padding-top: 1.6rem;
+        font-size: 1.7rem;
+        line-height: 1.3;
+        letter-spacing: 0.8px;
+      }
+    }
+  }
+}
+
+.grad-animat:hover,
+.grad-animat:active {
+  background-image: linear-gradient(
+    96.64deg,
+    $color-primary 19.56%,
+    $color-secondary 98.59%
+  );
+  color: $color-white;
+}
+
+.our-portfolio {
+  padding-bottom: 40rem;
+}
+
+// section GRID
+
+.grid {
+  &__photo img {
+    width: 84%;
+    transition: all 0.4s;
+    &:hover,
+    &:active {
+      transform: translateY(-2rem);
+    }
+  }
+
+  &__photo {
+    &-1 {
+      margin-top: -10rem;
+    }
+    &-2 {
+      margin-top: -6rem;
+    }
+    &-3 {
+      margin-top: -4.5rem;
+    }
+  }
+
+  &__title {
+    &--head {
+      margin-bottom: 2rem;
+      position: relative;
+      &::before {
+        content: "";
+        height: 2.8px;
+        width: 60px;
+        color: $color-orange;
+        bottom: -6px;
+        left: 4px;
+        right: 0;
+        position: absolute;
+        border-radius: 50px;
+      }
+    }
+    &--text {
+      font-size: 1.8rem;
+      line-height: 1.6;
+    }
+  }
+}
+
+// KNOWLEDGE CENTRE
+.knowledge-center {
+  margin: 8rem 52rem 54rem 0;
+}
+
+.sec-heading-el {
+  &::before {
+    content: "";
+    height: 2.8px;
+    width: 58px;
+    background-color: $color-orange;
+    position: absolute;
+    bottom: -8px;
+    left: 18px;
+    border-radius: 50px;
+  }
+}
+
+.text {
+  color: $color-green-dark;
+  font-size: 1.7rem;
+  display: inline-block;
+  margin-top: 1.6rem;
+  line-height: 1.5;
+}
+
+//COPYRIGHT
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+  position: relative;
+
+  &__text {
+    font-size: 1.6rem;
+    color: #999;
+  }
+
+  &__btns span {
+    font-size: 1.6rem;
+    color: #999;
+  }
+}
+
+//REVEALING cONTENT
+
+.reveal-el {
+  transition: all 0.4s;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translate(8rem);
+}

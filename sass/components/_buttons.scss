@@ -1,0 +1,47 @@
+.btn {
+  font-size: 1.6rem;
+  color: $color-white;
+  border: 1px solid $color-white;
+  padding: 1rem 4.2rem;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.4s;
+
+  &:hover,
+  &:active {
+    transform: translateY(-1.4rem);
+    box-shadow: 0 1.5px 1rem rgba($color-black, 0.1);
+  }
+}
+
+.nav__btn {
+  padding: 0.8rem 2rem;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    0.64deg,
+    $color-primary 19.56%,
+    $color-secondary 98.59%
+  );
+  text-decoration: none;
+  border: none;
+  padding: 0.8rem 8rem;
+
+  &-2 {
+    padding: 0.8rem 6rem;
+  }
+}
+
+.btn--right,
+.btn--left {
+  font-size: 1.6rem;
+  color: #999;
+  text-decoration: none;
+  transition: all 0.2s;
+
+  &:hover,
+  &:active {
+    color: $color-blue-dark;
+  }
+}

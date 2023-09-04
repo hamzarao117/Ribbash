@@ -1,0 +1,22 @@
+.hire-us {
+  display: flex;
+  align-items: center;
+
+  &__container {
+    background-color: $color-blue-dark;
+    height: 66rem;
+    width: 100%;
+    padding: 20rem 12rem 20rem 4.5rem;
+
+    &--text {
+      font-size: 1.7rem;
+      color: $color-white;
+      line-height: 1.4;
+      letter-spacing: 0.5px;
+    }
+  }
+}
+
+.container-2 {
+  background-color: $color-green-dark;
+}

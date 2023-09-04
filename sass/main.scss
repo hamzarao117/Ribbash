@@ -1,0 +1,19 @@
+// linear-gradient(96.64deg,#00ADCE 19.56%,#26D09B 98.59%);
+
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/buttons";
+@import "components/hireus";
+@import "components/quiz";
+
+@import "layout/grid";
+@import "layout/header";
+
+@import "pages/footer";
+@import "pages/home";
